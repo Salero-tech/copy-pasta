@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  copy:
+    image: salero-tech/copy-pasta
+    container_name: copy-pasta
+    volumes:
+    - ./from:/mnt/source
+    - ./to:/mnt/destination
